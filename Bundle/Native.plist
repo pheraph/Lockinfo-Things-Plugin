@@ -1,0 +1,37 @@
+<plist>
+<dict>
+	<key>items</key>
+        <array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+                        <key>cell</key>
+                        <string>PSSwitchCell</string>
+                        <key>default</key>
+                        <false/>
+                        <key>defaults</key>
+                        <string>com.jakewalk.lockinfo.ThingsPlugin</string>
+                        <key>key</key>
+                        <string>Collapsed</string>
+                        <key>label</key>
+                        <string>Collapsed By Default</string>
+                </dict>
+		<dict>
+                        <key>cell</key>
+                        <string>PSSwitchCell</string>
+                        <key>default</key>
+                        <true/>
+                        <key>defaults</key>
+                        <string>com.jakewalk.lockinfo.ThingsPlugin</string>
+                        <key>key</key>
+                        <string>ShowCount</string>
+                        <key>label</key>
+                        <string>Show Count</string>
+                </dict>
+        </array>
+	<key>title</key>
+        <string>Mail</string>
+</dict>
+</plist>
